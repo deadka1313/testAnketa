@@ -1,1 +1,13 @@
-@import 'variables.styl'
+@import 'variables.scss';
+
+body {
+  font-size: 22px;
+}
+
+.page {
+  max-width: 1280px;
+  min-height: 900px;
+  margin: 0 auto;
+  background: url("../../common.blocks/_common/img/our_goal.png") no-repeat 31px 229px,
+  url("../../common.blocks/_common/img/ease_of_implementation.png") no-repeat right bottom;
+}
