@@ -1,6 +1,12 @@
 @import '../../common.blocks/_common/style.scss';
 @import '../../common.blocks/logo/logo.scss';
+@import '../../common.blocks/form-data/form-data.scss';
 
 .logo-position {
   padding: 132px 0 0 0;
+}
+
+.form-data-position {
+  width: 866px;
+  margin: 103px auto 0 auto;
 }

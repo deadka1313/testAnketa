@@ -1,0 +1,65 @@
+.form-data {
+  background: white;
+  padding: 38px 46px 30px 47px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  border-radius: 3px;
+
+  //Для выравнивания по макету по центру
+  margin-left: -3px;
+  margin-right: 3px;
+
+  &_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-bottom: 20.5px;
+  }
+  &_left {
+    padding-top: 7px;
+    padding-right: 36px;
+  }
+  &_right {
+    font-family: 'Conv_roboto-Light';
+    font-size: 30px;    
+    border-bottom: 2px solid #4c204e;
+    flex-grow: 1;
+    padding-left: 14px;
+    padding-bottom: 5px;
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  //правки PixelPerfect
+  &_line:nth-child(2) {
+    .form-data_left {
+      margin-top: -1px;
+    }
+    .form-data_right {
+      margin-left: -10px;
+      padding-bottom: 0px;
+      padding-top: 5px;
+    }
+  }
+  &_line:nth-child(3) {
+    .form-data_right {
+      margin-left: -16px;
+    }
+  }
+  &_line:nth-child(4) {
+    .form-data_right {
+      margin-left: -5px;
+    }
+  }
+  &_line:nth-child(5) {
+    .form-data_left {
+      margin-top: 3px;
+    }
+    .form-data_right {
+      margin-left: -5px;
+    }
+  }
+}

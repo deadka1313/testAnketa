@@ -1,11 +1,27 @@
 mixin formData(name, year, town, skype, eMail)
-  .form-data_name
-    |Полное ФИО
-  .form-data_year
-    |Год рождения
-  .form-data_town
-    |Место жительства
-  .form-data_skype
-    |Скайп
-  .form-data_e-mail
-    |Почта
+  .form-data
+  
+    .form-data_line
+      .form-data_left
+        |Полное ФИО
+      .form-data_right= name
+
+    .form-data_line
+      .form-data_left
+        |Год рождения
+      .form-data_right= year
+
+    .form-data_line
+      .form-data_left
+        |Место жительства
+      .form-data_right= town
+
+    .form-data_line
+      .form-data_left
+        |Скайп
+      .form-data_right= skype
+
+    .form-data_line
+      .form-data_left
+        |Почта
+      .form-data_right!= "<a href=\"mailto:"+eMail+"\">"+eMail+"</a>"
