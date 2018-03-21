@@ -4,6 +4,7 @@ include ../../common.blocks/logo/logo
 include ../../common.blocks/form-data/form-data
 include ../../common.blocks/form-checkbox/form-checkbox
 include ../../common.blocks/date/date
+include ../../common.blocks/skills/skills
 
 block title
   |IO-Group Анкета Малышев Алексей Викторович
@@ -13,8 +14,13 @@ block main
 
   .form-data-position
     +formData("Малышев Алексей Викторович","1995","г. Томск","deadka1313","deadka1313@gmail.com")
+
+  //Навыки
   .form-checkbox-position
-    +form-checkbox
+    +form-checkbox("1","1","1","0", "1","0","1","1", "1","1","0","0")
+
+  .skills-position
+    +skills("3")
 
   .date-position
     +date("21.03.2018")

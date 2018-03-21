@@ -4,6 +4,7 @@
 @import '../../common.blocks/form-data/form-data.scss';
 @import '../../common.blocks/form-checkbox/form-checkbox.scss';
 @import '../../common.blocks/date/date.scss';
+@import '../../common.blocks/skills/skills.scss';
 
 .logo-position {
   padding: 132px 0 0 0;
@@ -19,7 +20,14 @@
   margin: 0 auto 0 auto;
 }
 
+.skills-position {  
+  max-width: 866px;
+  margin: 0 auto 35px auto;
+}
+
 .date-position {  
   max-width: 866px;
   margin: 0 auto 0 auto;
 }
+
+

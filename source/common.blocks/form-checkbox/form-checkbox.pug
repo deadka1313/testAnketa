@@ -1,6 +1,6 @@
 include ../../common.blocks/checkbox/checkbox
 
-mixin form-checkbox()
+mixin form-checkbox(check1,check2,check3,check4,check5,check6,check7,check8,check9,check10,check11,check12)
   .form-checkbox
     .form-checkbox_text
       h2= "Расскажите о себе чекбоксами"
@@ -8,19 +8,19 @@ mixin form-checkbox()
     
     .form-checkbox_row-flex
       .form-checkbox_column-flex
-        +checkbox("HTML","HTML","checked")
-        +checkbox("Css","Css","checked")
-        +checkbox("JS","JS","checked")
-        +checkbox("Bootstrap3","Bootstrap3","unchecked")
+        +checkbox("HTML","HTML",""+check1)
+        +checkbox("Css","Css",""+check2)
+        +checkbox("JS","JS",""+check3)
+        +checkbox("Bootstrap3","Bootstrap3",""+check4)
         
       .form-checkbox_column-flex
-        +checkbox("JQuery","JQuery","checked")
-        +checkbox("GULP","GULP","unchecked")
-        +checkbox("Sass","Sass","checked")
-        +checkbox("БЭМ","БЭМ","checked")
+        +checkbox("JQuery","JQuery",""+check5)
+        +checkbox("GULP","GULP",""+check6)
+        +checkbox("Sass","Sass",""+check7)
+        +checkbox("БЭМ","БЭМ",""+check8)
         
       .form-checkbox_column-flex
-        +checkbox("Webpack","Webpack","checked")
-        +checkbox("ES6","ES6","unchecked")
-        +checkbox("Vuejs","Vuejs","unchecked")
-        +checkbox("Nuxtjs","Nuxtjs","unchecked")
+        +checkbox("Webpack","Webpack",""+check9)
+        +checkbox("ES6","ES6",""+check10)
+        +checkbox("Vuejs","Vuejs",""+check11)
+        +checkbox("Nuxtjs","Nuxtjs",""+check12)

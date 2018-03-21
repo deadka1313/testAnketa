@@ -9,7 +9,12 @@
   margin-right: 3px;
 
   &_line {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -25,6 +30,7 @@
     font-family: 'Conv_roboto-Light';
     font-size: 30px;    
     border-bottom: 2px solid #4c204e;
+    -webkit-flex-grow: 1;
     flex-grow: 1;
     padding-left: 14px;
     padding-bottom: 5px;
@@ -63,10 +69,11 @@
     .form-data_right {
       margin-left: -5px;
     }
-    @media (max-width: 530px) {
-      .form-data_right {
-        font-size: 18px;
-      }
-    }
+  }
+}
+
+@media (max-width: 530px) {
+  .form-data_right {
+    font-size: 18px;
   }
 }
