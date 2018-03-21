@@ -19,6 +19,7 @@
   &_left {
     padding-top: 7px;
     padding-right: 36px;
+    color: #2f1b15
   }
   &_right {
     font-family: 'Conv_roboto-Light';
@@ -27,9 +28,10 @@
     flex-grow: 1;
     padding-left: 14px;
     padding-bottom: 5px;
+    color: #231f20;
     & a {
       text-decoration: none;
-      color: black;
+      color: #231f20;
     }
   }
 

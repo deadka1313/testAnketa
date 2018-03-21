@@ -1,0 +1,22 @@
+.form-check-box {
+  background: white;
+  padding: 40px 46px 30px 46px;
+  border-radius: 3px;
+  
+  //Для выравнивания по макету по центру
+  margin-left: -3px;
+  margin-right: 3px;
+
+  & h2 {    
+    font-size: 22px;   
+    color: #2f1b15;
+    font-weight: normal;
+  }
+  & p {    
+    font-size: 15px;   
+    color: #3d3d3d;
+    line-height: 23px;
+    margin-top: -7px;
+    margin-left: 1px;
+  }
+}

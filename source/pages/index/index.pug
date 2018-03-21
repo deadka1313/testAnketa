@@ -2,12 +2,16 @@ extends ../../common.blocks/base/base
 
 include ../../common.blocks/logo/logo
 include ../../common.blocks/form-data/form-data
+include ../../common.blocks/form-check-box/form-check-box
 
 block title
   |IO-Group Анкета Малышев Алексей Викторович
 block main
   .logo-position
     +logo
+
   .form-data-position
     +formData("Малышев Алексей Викторович","1995","г. Томск","deadka1313","deadka1313@gmail.com")
+  .form-check-box-position
+    +form-check-box
   
