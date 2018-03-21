@@ -6,12 +6,12 @@ module.exports = function(paths) {
 		module: {
 			rules: [
 				{
-					test: /\.styl$/,
+					test: /\.scss$/,
 					include: paths,
 					use: ExtractTextPlugin.extract({
 								publicPath: '../',
 								fallback: 'style-loader',
-								use: ['css-loader', 'stylus-loader']
+								use: ['css-loader', 'sass-loader']
 						})	
 				},
 				{

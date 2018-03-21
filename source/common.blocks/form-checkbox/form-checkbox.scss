@@ -1,0 +1,46 @@
+@import '../../common.blocks/checkbox/checkbox.scss';
+
+.form-checkbox {
+  background: white;
+  padding: 40px 46px 30px 46px;
+  border-radius: 3px;
+  
+  //Для выравнивания по макету по центру
+  margin-left: -3px;
+  margin-right: 3px;
+
+  & h2 {    
+    font-size: 22px;   
+    color: #2f1b15;
+    font-weight: normal;
+  }
+  & p {    
+    font-size: 15px;   
+    color: #3d3d3d;
+    line-height: 23px;
+    margin-top: -7px;
+    margin-left: 1px;
+    margin-bottom: 27px;
+  }
+
+  &_row-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5px;
+  }
+
+  &_column-flex {
+    display: flex;
+    flex-direction: column;
+    & label {
+      margin-bottom: 9px;
+    }
+  }
+  &_column-flex:nth-child(1) {
+    margin-right: 122px;
+  }
+  &_column-flex:nth-child(2) {
+    margin-right: 174px;
+  }
+}

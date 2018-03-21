@@ -1,0 +1,8 @@
+mixin checkbox(name, text, checked)
+  label
+    if(checked == "checked")
+      input(class="checkbox" type="checkbox" name="check-box-"+name checked)
+    else
+      input(class="checkbox" type="checkbox" name="check-box-"+name )
+    span(class="checkbox-custom")
+    span(class="checkbox_label")= text

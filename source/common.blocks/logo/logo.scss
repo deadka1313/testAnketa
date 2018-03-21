@@ -1,6 +1,7 @@
 .logo {
-  width: 415px;
+  max-width: 415px;
   height: 78px;
   margin: 0 auto;
   background: url("../../common.blocks/logo/IO-Group_logo.png") no-repeat;
+  background-size:contain; 
 }

@@ -1,0 +1,26 @@
+include ../../common.blocks/checkbox/checkbox
+
+mixin form-checkbox()
+  .form-checkbox
+    .form-checkbox_text
+      h2= "Расскажите о себе чекбоксами"
+      p= "Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Отсутствие опыта не означает, что у вас меньше шансов стать одним из наших товарищей. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться."
+    
+    .form-checkbox_row-flex
+      .form-checkbox_column-flex
+        +checkbox("HTML","HTML","checked")
+        +checkbox("Css","Css","checked")
+        +checkbox("JS","JS","checked")
+        +checkbox("Bootstrap3","Bootstrap3","unchecked")
+        
+      .form-checkbox_column-flex
+        +checkbox("JQuery","JQuery","checked")
+        +checkbox("GULP","GULP","unchecked")
+        +checkbox("Sass","Sass","checked")
+        +checkbox("БЭМ","БЭМ","checked")
+        
+      .form-checkbox_column-flex
+        +checkbox("Webpack","Webpack","checked")
+        +checkbox("ES6","ES6","unchecked")
+        +checkbox("Vuejs","Vuejs","unchecked")
+        +checkbox("Nuxtjs","Nuxtjs","unchecked")

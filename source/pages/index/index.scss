@@ -1,18 +1,25 @@
 @import '../../common.blocks/_common/style.scss';
+
 @import '../../common.blocks/logo/logo.scss';
 @import '../../common.blocks/form-data/form-data.scss';
-@import '../../common.blocks/form-check-box/form-check-box.scss';
+@import '../../common.blocks/form-checkbox/form-checkbox.scss';
+@import '../../common.blocks/date/date.scss';
 
 .logo-position {
   padding: 132px 0 0 0;
 }
 
 .form-data-position {
-  width: 866px;
+  max-width: 866px;
   margin: 103px auto 0 auto;
 }
 
-.form-check-box-position {  
-  width: 866px;
+.form-checkbox-position {  
+  max-width: 866px;
+  margin: 0 auto 0 auto;
+}
+
+.date-position {  
+  max-width: 866px;
   margin: 0 auto 0 auto;
 }
